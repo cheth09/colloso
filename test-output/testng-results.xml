@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Appium_Demo" duration-ms="24406" started-at="2015-10-05T10:10:20Z" finished-at="2015-10-05T10:10:45Z">
+  <suite name="Appium_Demo" duration-ms="3128" started-at="2015-10-20T10:05:59Z" finished-at="2015-10-20T10:06:02Z">
     <groups>
     </groups>
-    <test name="FirstClass" duration-ms="24406" started-at="2015-10-05T10:10:20Z" finished-at="2015-10-05T10:10:45Z">
+    <test name="FirstClass" duration-ms="3128" started-at="2015-10-20T10:05:59Z" finished-at="2015-10-20T10:06:02Z">
       <class name="flarekids.FirstClass">
-        <test-method status="PASS" signature="setCapabilities()[pri:0, instance:flarekids.FirstClass@2cfb4a64]" name="setCapabilities" is-config="true" duration-ms="12971" started-at="2015-10-05T15:40:07Z" finished-at="2015-10-05T15:40:20Z">
+        <test-method status="PASS" signature="setCapabilities()[pri:0, instance:flarekids.FirstClass@5ecddf8f]" name="setCapabilities" is-config="true" duration-ms="12564" started-at="2015-10-20T15:35:47Z" finished-at="2015-10-20T15:35:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setCapabilities -->
-        <test-method status="PASS" signature="login()[pri:0, instance:flarekids.FirstClass@2cfb4a64]" name="login" duration-ms="24391" started-at="2015-10-05T15:40:20Z" finished-at="2015-10-05T15:40:45Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:flarekids.FirstClass@5ecddf8f]" name="login" duration-ms="3117" started-at="2015-10-20T15:35:59Z" finished-at="2015-10-20T15:36:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
