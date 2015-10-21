@@ -1,0 +1,2 @@
+start startappium
+start run
