@@ -66,6 +66,8 @@ public class FirstClass {
 		  driver.findElement(By.id("et_password")).sendKeys("Qwerty123");
 		  driver.navigate().back();
 		  driver.findElement(By.id("bt_sign_in")).click();
+		  System.out.println(" App has successfully logged in!!");
+		  
 	}catch(Exception e){
 		e.printStackTrace();
 	}
