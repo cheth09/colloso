@@ -35,7 +35,7 @@ public class FirstClass {
 	  capablities.setCapability("platformName", "Android");
 //	  	capablities.setCapability("platformName", "iOS");
 	  System.out.println(" Hi Hello");
-	  capablities.setCapability("platformVersion", "5.0.2");
+	  capablities.setCapability("platformVersion", "5.1.1");
 //	  	System.out.println(" Hi Hello");
 	  capablities.setCapability("app", app.getAbsolutePath());
 	  System.out.println(" Hi Hello 2");
@@ -47,7 +47,7 @@ public class FirstClass {
 	  capablities.setCapability("appWaitActivity", "FKOnBoardingActivity");
 	  //capablities.setCapability("appWaitActivity", "LoginActivity");
 	//  capablities.setCapability("autoLaunch", "true");
-	  driver = new RemoteWebDriver(new URL("http://127.0.0.1:4725/wd/hub"), capablities);
+	  driver = new RemoteWebDriver(new URL("http://127.0.0.1:4721/wd/hub"), capablities);
 	  System.out.println(" Hi Hello3");
 	  driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);  
   }
