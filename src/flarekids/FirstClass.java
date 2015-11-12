@@ -47,7 +47,7 @@ public class FirstClass {
 	  capablities.setCapability("appWaitActivity", "FKOnBoardingActivity");
 	  //capablities.setCapability("appWaitActivity", "LoginActivity");
 	//  capablities.setCapability("autoLaunch", "true");
-	  driver = new RemoteWebDriver(new URL("http://127.0.0.1:4721/wd/hub"), capablities);
+	  driver = new RemoteWebDriver(new URL("http://127.0.0.1:4725/wd/hub"), capablities);
 	  System.out.println(" Hi Hello3");
 	  driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);  
   }
